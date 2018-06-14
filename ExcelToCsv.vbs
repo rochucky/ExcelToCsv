@@ -25,7 +25,7 @@ csv_format = 6
 Set objFSO = CreateObject("Scripting.FileSystemObject")
 
 src_file = objFSO.GetAbsolutePathName(filename)
-dest_file = objFSO.GetAbsolutePathName(Replace(filename,".xlsx","_convertido.csv"))
+dest_file = objFSO.GetAbsolutePathName(Replace(filename,".xlsx","_converted.csv"))
 
 Dim oExcel
 Set oExcel = CreateObject("Excel.Application")
